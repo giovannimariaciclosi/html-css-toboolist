@@ -18,13 +18,13 @@ nav {
 nav #title {
   display: inline-block;
   font-size: 40px;
-  line-height: 1.5;
-  vertical-align: text-bottom;
+  line-height: 100px;
+  vertical-align: middle;
 }
 
 nav #logo {
+  vertical-align: middle;
   margin-left: 20px;
-  margin-top: 10px;
 }
 /* /navbar */
 
