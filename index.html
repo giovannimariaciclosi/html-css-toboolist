@@ -22,10 +22,10 @@
   <main>
     <!-- header -->
     <header>
-      <button type="button" onclick="alert('Hello world!')" id="task" class="main-button">
+      <button type="button" onclick="alert('Add new task')" id="task" class="main-button">
         Add Task
       </button>
-      <button type="button" onclick="alert('Hello world!')" class="main-button" id="section">
+      <button type="button" onclick="alert('Add new section')" class="main-button" id="section">
         Add Section
       </button>
     </header>
@@ -44,7 +44,7 @@
             <span class="to-do-text">
               Quarterly Newsletter
             </span> 
-            <button class="to-do-button">
+            <button id="editorial" class="to-do-button">
               Editorial
             </button>
           </li>
@@ -54,16 +54,16 @@
       
       <!-- section today -->
       <div class="to-do-section">
-        &#x25BC; <h2 class="to-do-title">New Task</h2>
+        &#x25BC; <h2 class="to-do-title">Today</h2>
         <ul class="to-do-subsession">
           <li class="li-style">
             <span class="check">
               &#10003;
             </span>
             <span class="to-do-text">
-              Quarterly Newsletter
+              Recruiting blog post
             </span> 
-            <button class="to-do-button">
+            <button id="editorial" class="to-do-button">
               Editorial
             </button>
           </li>
@@ -73,10 +73,22 @@
               &#10003;
             </span>
             <span class="to-do-text">
-              Quarterly Newsletter
+              Mobile app launch
             </span> 
-            <button class="to-do-button">
-              Editorial
+            <button id="q1-goals" class="to-do-button">
+              Q1 Goals
+            </button>
+          </li>
+
+          <li class="li-style">
+            <span class="uncheck">
+              &#x2717;
+            </span>
+            <span class="to-do-text">
+              Interview John H.
+            </span> 
+            <button id="recruiting" class="to-do-button">
+              Recruiting
             </button>
           </li>
 
@@ -85,22 +97,10 @@
               &#10003;
             </span>
             <span class="to-do-text">
-              Quarterly Newsletter
+              Summit update to mobile storefronts
             </span> 
-            <button class="to-do-button">
-              Editorial
-            </button>
-          </li>
-
-          <li class="li-style">
-            <span class="check">
-              &#10003;
-            </span>
-            <span class="to-do-text">
-              Quarterly Newsletter
-            </span> 
-            <button class="to-do-button">
-              Editorial
+            <button id="mobile" class="to-do-button">
+              Mobile
             </button>
           </li>
         </ul>
@@ -109,17 +109,26 @@
       
       <!-- section upcoming -->
       <div class="to-do-section">
-        &#x25BC; <h2 class="to-do-title">New Task</h2>
+        &#x25BC; <h2 class="to-do-title">Upcoming</h2>
         <ul class="to-do-subsession">
           <li class="li-style">
+            <span class="uncheck">
+              &#x2717;
+            </span>
+            <span class="to-do-text">
+              Schedule meeting with Alex
+            </span> 
+          </li>
+
+          <li class="li-style">
             <span class="check">
               &#10003;
             </span>
             <span class="to-do-text">
-              Quarterly Newsletter
+              Homepage refresh
             </span> 
-            <button class="to-do-button">
-              Editorial
+            <button id="website" class="to-do-button">
+              Website
             </button>
           </li>
 
@@ -128,10 +137,10 @@
               &#10003;
             </span>
             <span class="to-do-text">
-              Quarterly Newsletter
+              Onboard new Sales team members
             </span> 
-            <button class="to-do-button">
-              Editorial
+            <button id="sales" class="to-do-button">
+              Sales
             </button>
           </li>
 
@@ -140,21 +149,9 @@
               &#10003;
             </span>
             <span class="to-do-text">
-              Quarterly Newsletter
+              Review editorial calendar
             </span> 
-            <button class="to-do-button">
-              Editorial
-            </button>
-          </li>
-
-          <li class="li-style">
-            <span class="check">
-              &#10003;
-            </span>
-            <span class="to-do-text">
-              Quarterly Newsletter
-            </span> 
-            <button class="to-do-button">
+            <button id="editorial" class="to-do-button">
               Editorial
             </button>
           </li>
