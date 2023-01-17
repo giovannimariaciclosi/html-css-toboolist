@@ -18,8 +18,8 @@ nav {
 nav #title {
   display: inline-block;
   font-size: 40px;
-  line-height: 100px;
-  vertical-align: super;
+  line-height: 1.5;
+  vertical-align: text-bottom;
 }
 
 nav #logo {
