@@ -32,12 +32,12 @@ nav #logo {
 main{
   margin-left: 150px;
   margin-right: 150px;
-  padding-left: 50px;
   background-color: white;
 }
 
 /* header */
 header {
+  padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 5px;
   border-bottom: 5px solid #f6f8f9;
@@ -67,6 +67,7 @@ header #section {
 /* to do list */
  #to-do-list {
   background-color: white;
+  padding-left: 50px;
 }
 
 section .to-do-section {
